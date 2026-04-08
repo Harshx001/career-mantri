@@ -1,47 +1,50 @@
-# Career Mantri AI Recommendation System
+# 🚀 Career Mantri AI Recommendation System
 
-Full-stack project with:
+An AI-powered full-stack web application that helps students discover personalized career paths, courses, and recommendations based on their interests and profile.
 
-- React frontend (`CareerMantriAI/AICareerMantriApp`)
-- Spring Boot backend (`BackendAPI`)
-- PostgreSQL integration
+---
 
-## Frontend features
+## 🧠 Tech Stack
 
-- Login and Signup pages
-- Auto redirect to Home after signup/login
-- Protected dashboard routes
-- Profile management page
-- Courses page with tag filters
-- AI recommendations page
+### 🔹 Frontend
+- React.js (Vite)
+- JavaScript (ES6+)
+- CSS / Tailwind (if used)
+- Axios (API calls)
 
-## Backend features
+### 🔹 Backend
+- Spring Boot
+- Spring Security (Auth)
+- Spring Data JPA
+- REST APIs
 
-- Auth APIs (signup/login)
-- User profile APIs (get/update)
-- Courses API with seeded default data
-- Recommendation APIs (manual payload and user-based)
-- PostgreSQL persistence using Spring Data JPA
+### 🔹 Database
+- PostgreSQL
 
-## Start order
+---
 
-1. Start PostgreSQL and create DB `careermantri`.
-2. Start backend from `BackendAPI`.
-3. Start frontend from `CareerMantriAI/AICareerMantriApp`.
+## ✨ Features
 
-## Commands
+### 👤 Authentication
+- User Signup & Login
+- Secure password handling
+- JWT-based authentication (if implemented)
 
-Backend:
+### 🧑‍💼 User Dashboard
+- Protected routes
+- Personalized dashboard
+- Profile management (update user details)
 
-```bash
-cd BackendAPI
-.\mvnw.cmd spring-boot:run
-```
+### 📚 Courses Module
+- View available courses
+- Filter courses by tags/skills
+- Backend-seeded course data
 
-Frontend:
+### 🤖 AI Recommendation System
+- Get career/course recommendations
+- Based on user profile & interests
+- Custom payload-based recommendations
 
-```bash
-cd CareerMantriAI\AICareerMantriApp
-npm install
-npm run dev
-```
+---
+
+## 📁 Project Structure
