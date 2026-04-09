@@ -3,6 +3,8 @@
 An AI-powered full-stack web application that helps students discover personalized career paths, courses, and recommendations based on their interests and profile.
 
 ---
+# 🚀 Live URL
+https://careermantri-frontend.onrender.com
 
 ## 🧠 Tech Stack
 
